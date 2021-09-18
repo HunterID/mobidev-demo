@@ -6,7 +6,7 @@ const Users = require('../db/model/users');
 
 dbConnect();
 
-const MAX_AMOUNT_NEW_USERS = 10;
+const MAX_AMOUNT_NEW_USERS = 100;
 
 async function addUsersToDB() {
     const newUsers = [];

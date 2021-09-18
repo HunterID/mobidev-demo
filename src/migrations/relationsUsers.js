@@ -78,3 +78,4 @@ function randomNumber(number) {
 }
 
 randomRelations()
+.then(() => process.exit(1));
