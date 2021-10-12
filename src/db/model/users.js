@@ -18,11 +18,6 @@ const UserSchema = new Schema({
 		type: String,
 		require: true,
 	},
-	price: {
-		type: Number,
-		require: true,
-		default: 100,
-	},
 },
 { timestamps: true },
 );
